@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="defaultTemplate" template="/WEB-INF/views/templates/baseLayout.jsp">
+        <put-attribute name="meta" value="/WEB-INF/views/templates/meta.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/templates/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/templates/footer.jsp" />
+    </definition>
+
+    <definition name="data/users_list_view" extends="defaultTemplate">
+        <put-attribute name="title" value="Users List" />
+        <put-attribute name="body" value="/WEB-INF/views/data/users_list_view.jsp" />
+    </definition>
+    <definition name="data/users_registration_view" extends="defaultTemplate">
+        <put-attribute name="title" value="Users Registration" />
+        <put-attribute name="body" value="/WEB-INF/views/data/users_registration_view.jsp" />
+    </definition>
+    <definition name="data/users_edit_view" extends="defaultTemplate">
+        <put-attribute name="title" value="Users Edit" />
+        <put-attribute name="body" value="/WEB-INF/views/data/users_edit_view.jsp" />
+    </definition>
+       <definition name="data/users_dropdown_view" extends="defaultTemplate">
+        <put-attribute name="title" value="Users Dropdown" />
+        <put-attribute name="body" value="/WEB-INF/views/data/users_dropdown_view.jsp" />
+    </definition>
+
+    <definition name="jpa/user_jpa_list" extends="defaultTemplate">
+        <put-attribute name="title" value="Hibernate Users" />
+        <put-attribute name="body" value="/WEB-INF/views/jpa/user_jpa_list.jsp" />
+    </definition>
+    
+       <definition name="jpa/user_jpa_add" extends="defaultTemplate">
+        <put-attribute name="title" value="Hibernate Add" />
+        <put-attribute name="body" value="/WEB-INF/views/jpa/user_jpa_add.jsp" />
+    </definition>
+    
+      <definition name="jpa/user_jpa_edit" extends="defaultTemplate">
+        <put-attribute name="title" value="Hibernate Edit" />
+        <put-attribute name="body" value="/WEB-INF/views/jpa/user_jpa_edit.jsp" />
+    </definition>
+
+</tiles-definitions>

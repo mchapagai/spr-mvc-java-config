@@ -1,0 +1,15 @@
+#mac os
+.DS_Store
+
+#eclipse
+.springBeans
+.classpath
+.project
+.settings/
+target/
+
+#Intellij
+*.iml
+.idea/
+build/
+bin/

@@ -1,0 +1,51 @@
+/* TYPOGRAPHY */
+h1,h2,h3,h4,h5,h6{font-family:"Lato", sans-serif;color:#808080}
+html,body,input,textarea{font-family:"Lato", sans-serif}
+.fa-trash {color: #FF0000}
+h2{font-size:24px;text-align:center}
+
+/* BASELAOUT */
+html{position:relative;min-height:100%}
+body{margin-bottom:60px}
+.top-space {margin-top: 80px;}
+/* fix bs3 horizontal scrollbar bug */
+.row {margin: 0;padding: 0;}
+.btn,.navbar a{text-transform:uppercase;font-family:"Lato", sans-serif;}
+.btn-custom{color:#fff;background-color:#D46054;border:none;}
+
+/* NAVIGATION MENU */
+.alt{background-color:#222}
+.alt .lead{color:#080808}.alt.affix{background-color:#D46054}
+.alt li a:hover,.alt li.active{background-color:#D46054}
+.navbar a{color:#fff;font-size:14px}
+
+/* JUMBTRON */
+.header{background:url("../img/bg-bird.jpg") no-repeat;background-size:cover;min-height:480px;text-align:center;color:white;font-weight:300}
+.header .container{position:relative}
+.header h1{padding-top:100px;font-family:'Shift', sans-serif;font-weight:bold}
+.header .lead{font-size:36px;margin-bottom:6px;color:#D46054;line-height:1.15em}
+.header .tagline{font-weight:bold;color:#D46054;margin-bottom:25px}
+.header .tagline a{color:#000}
+.header .btn{margin-bottom:10px}
+.header .btn-lg{font-size:28px;border-color:#eeeeee;padding:15px;background-color:transparent;color:#ffffff}
+.header .btn-lg:hover{background-color:#eeeeee;color:#777777}
+.vert{vertical-align:middle;width:100%;padding-top:4%;text-align:center}
+@media (max-width: 767px){
+    .header{min-height:420px;padding-top:160px}
+    .header .lead{font-size:34px}
+}
+
+/* FOOTER */
+p span{display:block}
+.footer{font-family:Lato, sans-serif;position:absolute;width:100%;height:60px;bottom:0;height:60px;}
+.footer-top{padding:30px 0 0 0;background:#232323;font-size:12px;color:#999;}
+.footer-top a{color:#006000}.footer-top a:hover{color:#FF0000;}
+.footer-top .widget{margin-bottom:30px;}
+.footer-top .widget-title{text-transform:uppercase;font-size:18px;color:#F5F5F5;margin:0 0 20px;}
+.footer-icons{font-size:30px;}
+.footer-icons i{float:left;margin:0 10px 0 0;}
+.footer-bottom{background:#191919;padding:15px 0;color:#CCC;font-size:12px;}
+.footer-bottom a{color:#006000;}
+.footer-bottom a:hover{color:#FF0000;}
+.footer-bottom p{margin:0;}
+.footer-bottom-nav{margin-left:-5px;}
